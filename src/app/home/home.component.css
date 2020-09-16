@@ -1,0 +1,21 @@
+.imgcontainer {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+
+  /* Top right text */
+.top-right {
+  position: absolute;
+  top: 200px;
+  margin-top: 15%;
+  margin-right: 12%;
+  right: 16px;
+}
+
+
+
+  .form-group .form-control{
+      display: inline;
+  }
+

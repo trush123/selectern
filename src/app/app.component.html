@@ -1,0 +1,43 @@
+
+<!-- <nav class="navbar navbar-expand-lg navbar-dark "> -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" >
+        <a href="/" class="segment-item active" target="_self">
+            Home
+        </a>
+
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="display:flex;justify-content: flex-end;">
+
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"
+                style="float:right"> &nbsp;
+                <button class="w3-button w3-medium w3-circle w3-black">3</button> &nbsp;
+                <div class="tooltip"> 
+              
+                    <span class="tooltiptext">Tooltip text</span>
+                  </div>
+                <button class="btn btn-success my-2 my-sm-0" type="submit" style="float:right; background-color: rgb(23, 162, 184);" routerLink ="/schedule-interview" >Schedule Interview</button>  &nbsp;   
+            <button class="btn btn-success my-2 my-sm-0" type="submit" style="float:right; background-color: rgb(23, 162, 184);" routerLink ="/login">Login</button> &nbsp;
+            <button class="btn btn-success my-2 my-sm-0" type="submit" style="float:right; background-color: rgb(23, 162, 184);"  routerLink ="/signup">Signup</button>
+        </form>
+    </div>
+</nav>
+<div style='display:flex; flex-direction: row-reverse;' *ngIf ="isSchedule">
+<div class="alert alert-primary" role="alert" style="width:35%">
+    Schedule your first interview
+  </div>
+</div>
+<br>
+
+
+<router-outlet></router-outlet>
+
+<br><br>
+
+ <app-footer></app-footer>
+ <!-- <about></about> -->

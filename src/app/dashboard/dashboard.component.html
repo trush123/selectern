@@ -1,0 +1,117 @@
+
+ <!-- <!DOCTYPE html>
+ <html lang="en"> -->
+ <head>
+   <!-- <titles>Bootstrap Example</title> -->
+   <!-- <meta charset="utf-8"> -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ </head>
+ <body>
+ 
+  <!-- <body> -->
+ <div class="container">
+   <div id="myCarousel" class="carousel slide" data-ride="carousel">
+     <!-- Indicators -->
+     <ol class="carousel-indicators">
+       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+       <li data-target="#myCarousel" data-slide-to="1"></li>
+       <li data-target="#myCarousel" data-slide-to="2"></li>
+     </ol>
+ 
+     <!-- Wrapper for slides -->
+     <div class="carousel-inner">
+ 
+       <div class="item active">
+         <img src="assets\images\pexels-artem-podrez-4492160.jpg" alt="Los Angeles" style="width:300%;">
+         <div class="carousel-caption">
+           <h3 style="color: #3333ff; font-weight: 500">Speak with Confidence and without hesitation</h3>
+           <p>don't be afraid of mistakes,our experts will help in every aspect of interview</p>
+         </div>
+       </div>
+ 
+       <div class="item">
+         <img src="assets\images\pexels-artem-podrez-4492135.jpg" alt="Chicago" style="width:300%;">
+         <div class="carousel-caption">
+           <h3 style="color: #3333ff; font-weight: 500">Schedule your interview</h3>
+           <p>Booking slots allows you to schedule interview,so you can able to practice your interview skills at any time</p>
+         </div>
+       </div>
+     
+       <div class="item">
+         <img src="assets\images\Untitled-design-59.png" alt="New York" style="width:300%;">
+         <div class="carousel-caption">
+           <h3 style="color: #3333ff; font-weight: 500">Watch and Rewatch</h3>
+           <p>Video recording feature gives you freedom to record video to rewatch it</p>
+         </div>
+       </div>
+   
+     </div>
+ 
+     <!-- Left and right controls -->
+     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+       <span class="glyphicon glyphicon-chevron-left"></span>
+       <span class="sr-only">Previous</span>
+     </a>
+     <a class="right carousel-control" href="#myCarousel" data-slide="next">
+       <span class="glyphicon glyphicon-chevron-right"></span>
+       <span class="sr-only">Next</span>
+     </a>
+   </div>
+ </div>
+ <br style="clear:both" /> 
+</body>
+ <br>
+
+ <div class="card">
+  <p>your first interview scheduled on "date" ,"time"</p>
+  <p>"Language"</p>
+  <p><button>START NOW!</button></p>
+</div>
+<br style="clear:both" /> 
+<br>
+ <h4 style="margin-left: 13%;">Our Popular plans:</h4>
+ 
+ 
+<section class="pricing py-5">
+  <div class="container">
+    <div class="row">
+     
+       <!-- Plus Tier -->
+       <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Plus</h5>
+            <!--<h6 class="card-price text-center">$39.99<span class="period">/month</span></h6> -->
+            <hr>
+            <ul class="fa-ul">
+               <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>15 Mins free trial</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>3 Interview interactions</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>video Recording feature</strong></li>
+            </ul>
+            <a href="#" class="btn btn-block btn-primary text-uppercase" (click) = 'selectPlan()'>START NOW!</a>
+          </div>
+        </div>
+      </div>
+      <!-- Pro Tier -->
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Pro</h5>
+            <!--<h6 class="card-price text-center">$54.99<span class="period">/month</span></h6> -->
+            <hr>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong> 15 Minutes free trial</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong> Interview interactions</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong> Recording feature</strong></li>
+            </ul>
+            <a href="#" class="btn btn-block btn-primary text-uppercase"  routerLink ="/payment">START NOW!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
